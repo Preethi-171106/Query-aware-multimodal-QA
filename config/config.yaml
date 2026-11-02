@@ -1,0 +1,61 @@
+# ==============================================================================
+# Configuration: Query-Aware Multimodal Evidence Fusion for Grounded Doc QA
+# ==============================================================================
+
+app:
+  name: "Query-Aware Multimodal Evidence Fusion"
+  tagline: "Grounded Document Question Answering with Cross-Modal Citations"
+  version: "0.5.0-phase5"
+  debug: true
+
+storage:
+  base_dir: "data"
+  uploads_dir: "data/uploads"
+  extracted_dir: "data/extracted"
+  indices_dir: "data/indices"
+
+extraction:
+  allowed_extensions:
+    - ".pdf"
+  max_file_size_mb: 25
+  extract_tables: true
+  extract_figures: true
+  extract_text: true
+
+indexing:
+  text_chunk_size: 500
+  text_chunk_overlap: 50
+  embedding_model: "all-MiniLM-L6-v2"
+  image_model: "openai/clip-vit-base-patch32"
+  device: "cpu"
+
+query_routing:
+  enabled: true
+  strategy: "hybrid_intent_scoring"  # Rule-based + Semantic / LLM intent
+  modality_types:
+    - "text"
+    - "table"
+    - "figure"
+  default_weights:
+    text: 0.40
+    table: 0.30
+    figure: 0.30
+  threshold: 0.25
+
+retrieval:
+  top_k_per_modality: 4
+  dense_weight: 0.6
+  sparse_weight: 0.4
+
+fusion:
+  strategy: "query_weighted_rrf"  # Reciprocal Rank Fusion weighted by query modality affinity
+  rrf_k: 60
+  top_k_final: 5
+  deduplication_threshold: 0.85
+
+generation:
+  provider: "gemini"  # Supported: "gemini", "mock"
+  model_name: "gemini-1.5-flash"
+  temperature: 0.2
+  max_output_tokens: 1024
+  enforce_citations: true

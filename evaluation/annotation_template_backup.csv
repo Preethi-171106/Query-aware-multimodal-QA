@@ -1,0 +1,215 @@
+question_id,question_text,chunk_id,page_number,modality,chunk_text,relevance_label,annotation_notes
+0,What are the main features of Java?,doc_af88fad1358a_p29_c2,29,TEXT,"used across billions of devices. Following are the main features of the Java
+language -
+1. Object Oriented
+2. Platform Independent
+3. Simple
+4. Secure
+5. Architecture-neutral
+6. Portable
+7. Robust
+8. Multithreaded
+9. Interpreted
+10. High Performance
+11. Distributed
+12. Dynamic
+Object Oriented
+In Java, everything is an Object. Java can be easily extended since it is based on the
+Object model.",relevant,"Verified in PDF p. 29: Section 3 Java - Features explicitly enumerates the 12 primary features of Java (Object Oriented, Platform Independent, Simple, Secure, etc.)."
+0,What are the main features of Java?,doc_af88fad1358a_p7_c2,7,TEXT,"ng continuously with every update, and
+updates are coming every six months. Following are some of the main features of the Java
+language:
+ Object Oriented: Java is a pure object-oriented language, and everything in Java
+is an object. Java supports OOPS principles
+like Inheritance, Encapsulation, Polymorphism, Classes , and so on. Java itself can
+be extended as well, being based on an object model.
+ Platform Independent: Java code is platform independent.",relevant,Verified in PDF p. 7: Explicitly introduces Following are some of the main features of the Java language with bullet descriptions.
+0,What are the main features of Java?,doc_af88fad1358a_p22_c4,22,TEXT,"based on public-key
+encryption.
+ Architecture-neutral: The Java compiler generates an architecture-neutral
+object file format, which makes the compiled code executable on many processors
+with the presence of the Java runtime system.
+ Portable: Being architecture-neutral and having no implementation-dependent
+aspects of the specification makes Java portable. Compiler in Java is written in
+ANSI C with a clean portability boundary, which is a POSIX subset.",partial,Verified in PDF p. 22: Covers Architecture-neutral and Portable features in Section 1 Overview; partial coverage.
+0,What are the main features of Java?,doc_af88fad1358a_p10_c3,10,TEXT,"ial. This section lists them down along with their answers briefly - −
+1. What are the 4 important concepts in Java?
+Java supports abstraction, encapsulation, polymorphism, and inheritance. These are 4
+major theoretical principles of object-oriented programming. But Java also works with
+three further OOP concepts: association, aggregation, and composition.
+2. What are the benefits of Java?",non-relevant,PDF p. 10: Quiz question discussing 4 OOP concepts; does not provide the language feature list.
+0,What are the main features of Java?,doc_af88fad1358a_p16_c6,16,TEXT,"................................................................... 501
+86. Java - Main Thread ..................................................................................................................................... 510
+87. Java - Thread Priority.................................................................................................................................. 515
+88.",non-relevant,PDF p. 16: Table of contents line for Main Thread; irrelevant.
+0,What are the main features of Java?,doc_af88fad1358a_p2_c5,2,TEXT,"ram.
+* This will print 'Hello, World!' as the output
+*/
+public static void main(String []args) {
+System.out.println(""Hello, World!""); // prints Hello, World!
+}
+}
+Getting Started with Java
+Explore the following chapters to get started learning Java programming:
+i",non-relevant,PDF p. 2: Hello World source code snippet; does not list features.
+0,What are the main features of Java?,doc_af88fad1358a_p30_c2,30,TEXT,"dependent on the type of machine it is running. A code in Java is compiled in
+ByteCode which is platform independent. Java Virtual Machine (JVM) can understand the
+byte code. Java provides platform specific JVMs. It is the responsibility of platform specific
+JVM to interpret the byte code correctly thus developers are free to write code without
+worrying about platforms like Windows, Linux, Unix, Mac etc. This feature makes Java a
+platform neutral language.",non-relevant,"PDF p. 30: Detailed deep dive into platform independence specifically, not general features list."
+0,What are the main features of Java?,doc_af88fad1358a_p29_c1,29,TEXT,"3. Java - Features
+Java Tutorial
+Java programming language was initially developed to work on embedded systems, settop
+boxes, television. So by requirements, it was initially designed to work on varied platforms.
+Over the period of multiple years, Java evolved to become one of the most popular
+language used to develop internet based applications.
+Java is a feature rich language and with every new version, it is continuously evolving. It
+is widely used across billions of devices.",non-relevant,PDF p. 29: Section heading and intro text; the enumerated list begins in c2.
+1,How does Java achieve platform independence?,doc_af88fad1358a_p30_c1,30,TEXT,"Java Tutorial
+Platform Independent
+Unlike many other programming languages including C and C++, when Java is compiled,
+it is not compiled into platform specific machine. It is compiled into platform independent
+byte code. This byte code is distributed over the web and interpreted by the Java Virtual
+Machine (JVM) on whichever platform it is being run on.
+Java is designed in Write Once, Run Anywhere (WORA) way. Code written in Java is
+not directly dependent on the type of machine it is running.",relevant,"Verified in PDF p. 30: Directly answers question under heading Platform Independent (compiled into bytecode, interpreted by JVM)."
+1,How does Java achieve platform independence?,doc_af88fad1358a_p30_c2,30,TEXT,"dependent on the type of machine it is running. A code in Java is compiled in
+ByteCode which is platform independent. Java Virtual Machine (JVM) can understand the
+byte code. Java provides platform specific JVMs. It is the responsibility of platform specific
+JVM to interpret the byte code correctly thus developers are free to write code without
+worrying about platforms like Windows, Linux, Unix, Mac etc. This feature makes Java a
+platform neutral language.",relevant,"Verified in PDF p. 30: Details WORA mechanism, bytecode independence, and platform-specific JVM responsibility."
+1,How does Java achieve platform independence?,doc_af88fad1358a_p22_c1,22,TEXT,"1. Java - Overview
+Java Tutorial
+Java programming language was originally developed by Sun Microsystems, which was
+initiated by James Gosling and released in 1995 as a core component of Sun Microsystems'
+Java platform (Java 1.0 [J2SE]).
+The latest release of the Java Standard Edition is Java SE 23. With the advancement of
+Java and its widespread popularity, multiple configurations were built to suit various types
+of platforms.",non-relevant,PDF p. 22: Introductory history of Sun Microsystems; does not describe architecture.
+1,How does Java achieve platform independence?,doc_af88fad1358a_p23_c5,23,TEXT,"r higher
+ Microsoft Notepad or any other text editor
+This tutorial will provide the necessary skills to create GUI, networking, and web
+applications using Java.
+2",non-relevant,PDF p. 23: Text editor requirements and GUI/web overview; irrelevant.
+1,How does Java achieve platform independence?,doc_af88fad1358a_p17_c9,17,TEXT,"................. 693
+116. Java - How to Use Iterator? ........................................................................................................................ 694
+117. Java - How to Use Comparator?................................................................................................................. 700
+xvi",non-relevant,PDF p. 17: Table of contents entry for Iterator; irrelevant.
+1,How does Java achieve platform independence?,doc_af88fad1358a_p9_c6,9,TEXT,"s tutorial provides a set of Java examples. Practice these examples to learn the Java
+concepts better: Java Examples
+viii",non-relevant,PDF p. 9: Java practice examples preface; irrelevant.
+2,Show the table summarizing Java SE versions.,doc_af88fad1358a_p26_t1,26,TABLE,"| Sr. No. | Version | Date | Description |
+| --- | --- | --- | --- |
+| 1 | JDK Beta | 1995 | Initial Draft version |
+| 2 | JDK 1.0 | 23 Jan 1996 | A stable variant JDK 1.0.2 was termed as JDK 1 |
+| 3 | JDK 1.1 | 19 Feb 1997 | Major features like JavaBeans, RMI, JDBC, inner classes were added in this release. |
+| 4 | JDK 1.2 | 8 Dec 1998 | Swing, JIT Compiler, Java Modules, Collections were introduced to JAVA and this release was a great success. |
+| 5 | JDK 1.3 | 8 May 2000 | HotSpot JVM, JNDI, JPDA, JavaSound and support for Synthetic proxy classes were added. |
+| 6 | JDK 1.4 | 6 Feb 2002 | Image I/O API to create/read JPEG/PNG image were added. Integrated XML parser and XSLT processor (JAXP) and Preferences API were other important updates. |
+| 7 | JDK 1.5 or J2SE 5 | 30 Sep 2004 | Various new features were added to the language like foreach, var-args, generics etc. |
+| 8 | JAVA SE 6 | 11 Dec 2006 | 1. notation was dropped to SE and upgrades done to JAXB 2.0, JSR 269 support and JDBC 4.0 support added. |
+| 9 | JAVA SE 7 | 7 Jul 2011 | Support for dynamic languages added to JVM. Another enhancements included string in switch case, compressed 64 bit pointers etc. |
+| 10 | JAVA SE 8 | 18 Mar 2014 | Support for functional programming added. Lambda expressions, streams, default methods, new date-time APIs introduced. |",relevant,Verified in PDF p. 26: First segment of the Java SE version table (JDK Beta to JDK 1.8).
+2,Show the table summarizing Java SE versions.,doc_af88fad1358a_p27_t1,27,TABLE,"| 11 | JAVA SE 9 | 21 Sep 2017 | Module system introduced which can be applied to JVM platform. |
+| --- | --- | --- | --- |
+| 12 | JAVA SE 10 | 20 Mar 2018 | Unicode language-tag extensions added. Root certificates, threadlocal handshakes, support for heap allocation on alternate memory devices etc. were introduced. |
+| 13 | JAVA SE 11 | 5 Sep 2018 | Dynamic class-file constants, Epsilon a no-op garbage collector, local-variable support in lambda parameters, Low- overhead heap profiling support added. |
+| 14 | JAVA SE 12 | 19 Mar 2019 | Experimental Garbage Collector, Shenandoah: A Low-Pause- Time Garbage Collector, Microbenchmark Suite, JVM Constants API added. |
+| 15 | JAVA SE 13 | 17 Sep 2019 | Feature added - Text Blocks (Multiline strings), Enhanced Thread-local handshakes. |
+| 16 | JAVA SE 14 | 17 Mar 2020 | Feature added - Records, a new class type for modelling, Pattern Matching for instanceof, Intuitive NullPointerException handling. |
+| 17 | JAVA SE 15 | 15 Sep 2020 | Feature added - Sealed Classes, Hidden Classes, Foreign Function and Memory API (Incubator). |
+| 18 | JAVA SE 16 | 16 Mar 2021 | Feature added as preview - Records, Pattern Matching for switch, Unix Domain Socket Channel (Incubator) etc. |
+| 19 | JAVA SE 17 | 14 Sep 2021 | Feature added as finalized - Sealed Classes, Pattern Matching for instanceof, Strong encapsulation of JDK internals by default. New macOS rendering pipeline etc. |
+| 20 | JAVA SE 18 | 22 Mar 2022 | Feature added - UTF-8 by Default, Code Snippets in Java API Documentation, Vector API (Third incubator), Foreign Function, Memory API (Second Incubator) etc. |",relevant,Verified in PDF p. 27: Second segment of the Java SE version table (JAVA SE 9 to JAVA SE 18).
+2,Show the table summarizing Java SE versions.,doc_af88fad1358a_p28_t1,28,TABLE,"| 21 | JAVA SE 19 | 20 Sep 2022 | Feature added - Record pattern, Vector API (Fourth incubator), Structured Concurrency (Incubator) etc. |
+| --- | --- | --- | --- |
+| 22 | JAVA SE 20 | 21 Mar 2023 | Feature added - Scoped Values (Incubator), Record Patterns (Second Preview), Pattern Matching for switch (Fourth Preview),Foreign Function & Memory API (Second Preview) etc. |
+| 22 | JAVA SE 21 | 19 Sep 2023 | Feature added - String Templates (Preview), Sequenced Collections, Generational ZGC, Record Patterns, Pattern Matching for switch etc. |
+| 23 | Java SE 22 | 19 Mar 2024 | Feature added - Region Pinning for G1 garbage collector, foreign functions and memory APIs , multi-file source code programs support, string templates, vector apis (seventh incubator), unnamed variables, patterns, stream gatherers (first preview) etc. |
+| 24 | Java SE 23 | 17 Sep 2024 | Feature added - Primitive types in patterns, class file APIs, vector APIs (Eighth incubator), stream gatherers (second preview), ZDC, generation mode by default etc. |",relevant,Verified in PDF p. 28: Third segment of the Java SE version table (JAVA SE 19 to JAVA SE 22).
+2,Show the table summarizing Java SE versions.,doc_af88fad1358a_p13_c2,13,TEXT,"...................................................... x
+Table of Contents .......................................................................................................................................... xii
+JAVA TUTORIAL ........................................................................................................XX
+1.",non-relevant,PDF p. 13: Table of contents; not a version summary table.
+2,Show the table summarizing Java SE versions.,doc_af88fad1358a_p22_c1,22,TEXT,"1. Java - Overview
+Java Tutorial
+Java programming language was originally developed by Sun Microsystems, which was
+initiated by James Gosling and released in 1995 as a core component of Sun Microsystems'
+Java platform (Java 1.0 [J2SE]).
+The latest release of the Java Standard Edition is Java SE 23. With the advancement of
+Java and its widespread popularity, multiple configurations were built to suit various types
+of platforms.",non-relevant,PDF p. 22: Text overview; not a table.
+3,What was the initial name of Java before it was renamed to Oak and Java?,doc_af88fad1358a_p25_c2,25,TEXT,"new project. Initially C++ was the original choice to develop the project. James
+Gosling wanted to enhance C++ to achieve the target but due to high memory usage, that
+idea was rejected and team started with a new language initially named as GreenTalk. The
+file extension used as .gt. Later this language was termed as Oak and finally to Java.
+Oak
+James Gosling renamed language to Oak. There was an Oak tree in front of his office.",relevant,"Verified in PDF p. 25: Explicitly answers that James Gosling team started with GreenTalk (.gt), then Oak, then Java."
+3,What was the initial name of Java before it was renamed to Oak and Java?,doc_af88fad1358a_p25_c1,25,TEXT,"2. Java - History
+Java Tutorial
+History of Java
+Java programming language was originally developed by Sun Microsystems which was
+initiated by James Gosling and released in 1995 as core component of Sun Microsystems'
+Java platform (Java 1.0 [J2SE]). History of even naming of the Java is very interesting. It
+went under many names.
+Java Name History
+GreenTalk
+James Gosling was leading a team named as 'Green' team. Target of this team was to
+create a new project.",relevant,Verified in PDF p. 25: Section heading Java Name History / GreenTalk introducing the original project name.
+3,What was the initial name of Java before it was renamed to Oak and Java?,doc_af88fad1358a_p25_c3,25,TEXT,"ed this name as Oak represents solidarity and Oak tree is the national
+tree of multiple countries like USA, France, Romania etc. But Oak technologies already had
+Oak as a trademark and James team had to brainstrom another title for the language.
+Java
+Team put multiple names like DNA, Silk, Ruby and Java. Java was finalized by the team.
+James Gosling tabled Java title based on type of espresso coffee bean. Java is an island in
+Indonesia where new coffee was discovered termed as Java coffee.",partial,Verified in PDF p. 25: Explains renaming from Oak to Java due to trademark conflict; supporting context.
+3,What was the initial name of Java before it was renamed to Oak and Java?,doc_af88fad1358a_p29_c1,29,TEXT,"3. Java - Features
+Java Tutorial
+Java programming language was initially developed to work on embedded systems, settop
+boxes, television. So by requirements, it was initially designed to work on varied platforms.
+Over the period of multiple years, Java evolved to become one of the most popular
+language used to develop internet based applications.
+Java is a feature rich language and with every new version, it is continuously evolving. It
+is widely used across billions of devices.",non-relevant,PDF p. 29: Overview of embedded systems background; no naming details.
+3,What was the initial name of Java before it was renamed to Oak and Java?,doc_af88fad1358a_p2_c2,2,TEXT,"ng this tutorial, you will find yourself at a moderate level of expertise in Java
+programming, from where you can elevate yourself to the next levels.
+What is Java?
+Java is a popular high-level, object-oriented programming language that was originally
+developed by Sun Microsystems and released in 1995. Currently, Java is owned by Oracle,
+and more than 3 billion devices run Java. Java runs on a variety of platforms, such
+as Windows, Mac OS, and the various versions of UNIX.",non-relevant,PDF p. 2: General definition of Java; does not mention GreenTalk.
+4,Why was C++ rejected by James Gosling's team during Java's initial development?,doc_af88fad1358a_p25_c2,25,TEXT,"new project. Initially C++ was the original choice to develop the project. James
+Gosling wanted to enhance C++ to achieve the target but due to high memory usage, that
+idea was rejected and team started with a new language initially named as GreenTalk. The
+file extension used as .gt. Later this language was termed as Oak and finally to Java.
+Oak
+James Gosling renamed language to Oak. There was an Oak tree in front of his office.",pending,Pending manual review: PDF p. 25 states C++ was rejected due to high memory usage. The PDF discusses separate facts rather than a direct comparison of memory usage. Marked pending expert adjudication.
+4,Why was C++ rejected by James Gosling's team during Java's initial development?,doc_af88fad1358a_p30_c4,30,TEXT,"like pointers, operator overloading, multiple inheritance, explicit memory
+allocation etc. It provides automatic garbage collection. With a rich set of libraries with
+thousands of useful functions, Java makes developers’ life easy.
+Secure
+With Java's secure feature it enables to develop virus-free, tamper-free systems.
+Authentication techniques are based on public-key encryption.",non-relevant,"PDF p. 30: Discusses Java eliminating explicit memory allocation and adding garbage collection; separate fact, not reason for C++ rejection."
+4,Why was C++ rejected by James Gosling's team during Java's initial development?,doc_af88fad1358a_p10_c2,10,TEXT,"ogle in 1990s
+B - Micorsoft in 1980s
+C - Sun Microsystems in 1995
+D - None of the Above
+Start your online quiz Start Java Quiz.
+Download Java
+Java's latest version can be downloaded from Oracle's official website: Java Downloads
+Java Certification
+Get certified in Java to boost your skills and career Get certified
+Frequently Asked Questions about Java Tutorial
+There are some important frequently asked questions (FAQs) about Java Programming
+tutorial.",non-relevant,PDF p. 10: Online quiz multiple-choice options; completely irrelevant.
+4,Why was C++ rejected by James Gosling's team during Java's initial development?,doc_af88fad1358a_p23_c3,23,TEXT,"'s office, also went by the name 'Green' and ended up later being renamed as Java,
+from a list of random words.
+Sun released the first public implementation as Java 1.0 in 1995. It promised Write Once,
+Run Anywhere (WORA), providing no-cost run-times on popular platforms.
+On 13 November, 2006, Sun released much of Java as free and open source software
+under the terms of the GNU General Public License (GPL).",non-relevant,PDF p. 23: Overview mentioning Green team and oak tree; no mention of C++ rejection reason.
+4,Why was C++ rejected by James Gosling's team during Java's initial development?,doc_af88fad1358a_p9_c6,9,TEXT,"s tutorial provides a set of Java examples. Practice these examples to learn the Java
+concepts better: Java Examples
+viii",non-relevant,PDF p. 9: Java examples intro; irrelevant.

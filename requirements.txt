@@ -1,0 +1,28 @@
+# ==============================================================================
+# Requirements for: Query-Aware Multimodal Evidence Fusion for Grounded Doc QA
+# ==============================================================================
+
+# Web Interface
+streamlit>=1.35.0
+
+# Document & PDF Parsing
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+pillow>=10.0.0
+
+# Embeddings, Vector Search & Retrieval
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+torch>=2.2.0
+transformers>=4.40.0
+
+# LLM / Multimodal VLM Generation & Grounding
+google-generativeai>=0.8.0
+
+# Data Processing, Schema & Configuration
+pandas>=2.2.0
+numpy>=1.26.0
+pydantic>=2.7.0
+pyyaml>=6.0.0
+python-dotenv>=1.0.0

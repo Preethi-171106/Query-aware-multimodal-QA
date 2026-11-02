@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What are the main features of Java?",
+    "relevant_chunk_ids": []
+  },
+  {
+    "question": "How does Java achieve platform independence?",
+    "relevant_chunk_ids": []
+  },
+  {
+    "question": "Show the table summarizing Java SE versions.",
+    "relevant_chunk_ids": []
+  },
+  {
+    "question": "What was the initial name of Java before it was renamed to Oak and Java?",
+    "relevant_chunk_ids": []
+  },
+  {
+    "question": "Why was C++ rejected by James Gosling's team during Java's initial development?",
+    "relevant_chunk_ids": []
+  }
+]

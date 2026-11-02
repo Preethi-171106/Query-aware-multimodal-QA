@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables & secrets (NEVER commit secrets!)
+.env
+*.env
+!.env.example
+
+# Local storage and data caches
+data/uploads/*
+data/extracted/*
+data/indices/*
+data/cache/*
+!data/uploads/.gitkeep
+!data/extracted/.gitkeep
+!data/indices/.gitkeep
+
+# Streamlit local runtime state
+.streamlit/secrets.toml
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
